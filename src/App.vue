@@ -1,11 +1,34 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <div class="app">
+    <h1>{{ title }}</h1>
+    <Structure />
+    <Counter />
+  </div>
 </template>
 
-<style scoped></style>
+<script>
+import Structure from './components/Structure.vue'
+import Counter from './components/Counter.vue'
+
+export default {
+  components: {
+    Structure,
+    Counter
+  },
+  data() {
+    return {
+      title: 'My First Vue App'
+    }
+  }
+}
+</script>
+
+<style>
+.app {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: blue;
+}
+</style>
