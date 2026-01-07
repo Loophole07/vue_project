@@ -7,9 +7,9 @@
     <ParentBox/>
     <ChildButton/>
     <Watch/>
+    <RegForm />
 
     <!-- <Vmodel />
-    <RegForm />
     <Toggle />
     <Method />
     <Alert />
