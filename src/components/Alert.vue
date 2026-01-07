@@ -14,7 +14,7 @@ export default {
       alert('Hello! This is an alert')
     },
     showAnotherAlert() {
-      alert('This is another alert button 😊')
+      alert('This is another alert button ')
     }
   }
 }

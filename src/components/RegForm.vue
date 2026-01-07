@@ -24,7 +24,7 @@
       Registration Successful ✅
     </p>
     <p v-else style="color: red;">
-      Please fill all fields ❌
+      Please fill all fields 
     </p>
   </div>
 </template>
