@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "type": "module",
+  "homepage": "https://Loophole07.github.io/vue_project",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
