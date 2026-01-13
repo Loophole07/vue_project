@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import AppCart from '../components/App_Cart.vue'
 import Bill from '../components/Bill.vue'
 
@@ -8,6 +8,6 @@ const routes = [
 ]
 
 export default createRouter({
-  history: createWebHashHistory(), 
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
