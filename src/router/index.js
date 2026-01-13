@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import AppCart from '../components/App_Cart.vue'
 import Bill from '../components/Bill.vue'
 
@@ -7,10 +7,7 @@ const routes = [
   { path: '/bill', component: Bill }
 ]
 
-const router = createRouter({
-  
-  history: createWebHashHistory(),
+export default createRouter({
+  history: createWebHistory(),
   routes
 })
-
-export default router
